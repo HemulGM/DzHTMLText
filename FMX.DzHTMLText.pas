@@ -509,7 +509,7 @@ uses
   , System.UIConsts
     {$IF Defined(ANDROID)}
     , Androidapi.JNI.GraphicsContentViewText
-    , Androidapi.Helpers
+    , Androidapi.Helpers, Androidapi.JNI.App, Androidapi.JNI.Net
     {$ELSEIF Defined(IOS)}
     , macapi.helpers, FMX.helpers.iOS
     {$ELSEIF Defined(MACOS)}
